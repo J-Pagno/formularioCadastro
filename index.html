@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Formulário de Cadastro</title>
+    <meta charset="utf-8" />
+    <link href="assets/css/index.css" rel="stylesheet" media="all" />
+    <link href="assets/libs/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="all" />
+</head>
+
+<body>
+    <header>
+        <nav class="nav nav-pills flex-column flex-sm-row">
+            <a class="flex-sm-fill text-sm-center nav-link active" href="cadastro.html">Cadastro</a>
+            <a class="flex-sm-fill text-sm-center nav-link" href="consulta.php">Consulta</a>
+        </nav>
+    </header>
+    <main>
+        <div>
+            <h1>Entre em contato</h1>
+            <form class="form-row" name="meu_form" action="cadastro.php" method="POST" style="margin-left: 2%">
+
+                <label for="name">Nome</label>
+                <input class="form-control" id="name" type="text" id="nomeid" placeholder="Fulano de Tal" required="required" name="name" />
+
+                <label for="email">Email</label>
+                <input class="form-control" id="email" type="email" id="foneid" placeholder="fulano@mail.com" name="email" />
+                <hr>
+
+                <label for="cpf_cnpj">CPF/CNPJ</label>
+                <input class="form-control cpfcnpj" id="cpfcnpj" type="text" id="emailid" placeholder="xxx.xxx.xxx-xx" name="cpf_cnpj" />
+                <hr>
+
+                <label for="phone">Telefone</label>
+                <input class="form-control" id="phoneNumber" type="text" id="nomeid" placeholder="(xx) x xxxx-xxxx" required="required" name="phone" />
+                <hr>
+
+                <label for="CEP">CEP</label>
+                <input class="form-control" id="cep" type="text" id="nomeid" placeholder="xxxxx-xxx" required="required" name="CEP" />
+                <hr>
+
+                <label for="public_place">Logradouro</label>
+                <input class="form-control" id="public_place" type="text" id="nomeid" placeholder="Tiago Vale" name="public_place" />
+                <hr>
+
+                <label for="house_number">Número</label>
+                <input class="form-control" id="house_number" type="number" id="nomeid" placeholder="Tiago Vale" required="required" name="house_number" />
+                <hr>
+
+                <label for="district">Bairro</label>
+                <input class="form-control" id="district" type="text" id="nomeid" placeholder="Tiago Vale" required="required" name="district" />
+                <hr>
+
+                <label for="city">Cidade</label>
+                <input class="form-control" id="city" type="text" id="nomeid" placeholder="Tiago Vale" required="required" name="city" />
+                <hr>
+
+                <label for="state">Estado</label>
+                <input class="form-control" id="state" type="text" id="nomeid" placeholder="Tiago Vale" required="required" name="state" />
+                <hr>
+
+                <input class="btn btn-success" type="submit" value="Enviar" style='margin: 15px 0px 0px 0px;' />
+            </form>
+        </div>
+    </main>
+
+    <script src="assets/libs/jquery.min.js"></script>
+    <script src="assets/libs/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/JavaScript1.js"></script>
+</body>
+
+</html>
